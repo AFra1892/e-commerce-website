@@ -462,7 +462,33 @@ form.search button:hover{
     background-color: var(--dark-color);
 }
 
-
+/*---------------------
+* 02. SLIDER
+*--------------------*/
+.slider > div > .wrapper{
+    width: calc(100% - (300px +2em));
+    margin-left: 400px;
+}
+.slider .item{
+    position: relative;
+    height: 474px;
+}
+.slider .text-content{
+    position: relative;
+    height: var(--percent100);
+    justify-content: flex-end;
+    padding: 0 0 10% 10%;
+    z-index: 1;
+}
+.slider h4{
+    font-size: var(--font-small);
+    font-weight: var(--fw7);
+    width: fit-content;
+    padding: 4px 10px;
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    border-radius: 4px;
+}
 
 
 
@@ -623,16 +649,16 @@ form.search button:hover{
     }
 
     .dpt-menu .beauty ul{
-        background-image: url(assets/menu/menu_bg1.jpg);
+        background-image: url(assets/assets/menu/menu_bg1.jpg);
     }
     .dpt-menu .electric ul{
-        background-image: url(assets/menu/menu_bg2.jpg);
+        background-image: url(assets/assets/menu/menu_bg2.jpg);
     }
     .dpt-menu .fasion ul{
-        background-image: url(assets/menu/menu_bg3.jpg);
+        background-image: url(assets/assets/menu/menu_bg3.jpg);
     }
     .dpt-menu .homekit ul{
-        background-image: url(assets/menu/menu_bg4.jpg);
+        background-image: url(assets/assets/menu/menu_bg4.jpg);
     }
     .dpt-menu .has-child > :where(ul>,.mega)::before{
         content: '';
@@ -641,7 +667,7 @@ form.search button:hover{
         left: 0;
         right: 0;
         bottom: 0;
-        background: linear-gradient(90deg,white,black);
+        
     }
     .dpt-menu .mega{
         width: auto;
