@@ -141,6 +141,12 @@ header li>a{
 main{
     display: flex;
     flex-direction: column;
+   
+}
+#img-slider{
+    max-width: 100%;
+    height: 700px;
+    object-fit: cover;
 }
 .main-container{
     height: 100vh;
@@ -175,32 +181,28 @@ main{
     
 }
 .slider-container{
-    position: relative;
-	padding: 2rem;
-    width: 90%;
-    height: 70%;
+    
+    width: 100%;
+    height: 700px;
 
 }
 .slider-wrapper{
-    width: 90%;
+    width: 100%;
     height: 100%;
-	position: relative;
-	margin-left:125px;
+	
     
 
 }
 .slider{
 	display: flex;
-    position: relative;
-    right: 50px;
+    
 	aspect-ratio: 16 / 9;
     width: 100%;
     height: 100%;
 	overflow-x: auto;
 	scroll-snap-type: x mandatory;
 	scroll-behavior: smooth;
-	box-shadow: 0 1.5rem 3rem -0.75rem var(--secondary-dark-color);
-	border-radius: 0.5rem;
+	
 
 }
 .slider img{
@@ -282,7 +284,6 @@ main{
 
 
 .trend{
-    padding: 2rem;
     width: 100%;
     height: auto;
 }
@@ -409,6 +410,7 @@ main{
 /*Phone*/
 @media(max-width:768px){
 
+        
     .desktop-hide{
         display: block;
     }
@@ -483,6 +485,12 @@ main{
         padding-top: 0;
     }
     header{
+        height: 100vh;
+    }
+    main{
+        height: 100vh;
+    }
+    .slider-container{
         height: 100vh;
     }
     #first-vertical-line{
