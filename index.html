@@ -10,15 +10,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
-    
+ 
 </head>
 <body>
    <div id="page" class="site">
-    <header>
+    <header class="mynav">
         <div class="container">
             <div class="wrapper flexitem">
                 <div class="left flexitem">
-                    <div class="logo"><a>.Brand</a></div>
+                    <div class="logo"><a><img src="assets/assets/nike-4-logo-pack/nike-4-logo-black-and-white.png"></a></div>
                     <nav>
                         <ul class="main-links nav-menu">
                             <li><a href="#" class="nav-links">Home</a></li>
@@ -46,10 +46,16 @@
     </header>
 
     <main>
+        <div class="main-container">
+            <h1>JUST DO IT</h1>
+            <img src="assets/assets/products/header.jpg">
+        </div>
+        
+        <!-- Slider mire bade trend product
         <div class="main-main">
         <div class="left-main mobile-hide">
            <div class="left-container">
-                    <div class="cat-div">
+                    <div id="first-cat" class="cat-div">
                         <h1><a href="#">MEN</a></h1>
                     </div>
                     <div class="cat-div">
@@ -78,7 +84,9 @@
                 </div>
             </section>
         </div>
-    </div><!--main-main-->
+    </div>
+    -->
+    <!--main-main-->
     <div class="brands mobile-hide">
         <div class="brand-container">
             <img src="assets/assets/brands/asus.png" alt="">
@@ -232,7 +240,16 @@
         navMenu.classList.remove("active");
     }));
    </script>
-
+<script>
+    document.addEventListener('scroll',()=>{
+        const header = document.querySelector('header');
+        if(window.scrollY>0){
+            header.classList.add('scrolled');
+        }else{
+            header.classList.remove('scrolled');
+        }
+    })
+</script>
 </body>
 </html>
 

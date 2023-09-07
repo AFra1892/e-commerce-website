@@ -1,7 +1,9 @@
 :root{
-    --primary-color:#D3E0EA;
-    --secondary-color:#1687A7;
-    --secondary-dark-color:#276678;
+    --new-main-color:#B3E140;
+    --primary-color:#ffca99;
+    --secondary-color:#f19465;
+    --secondary-dark-color:#b56034;
+    
 
     --white-color:#ffffff;
     --light-bg-color:#f2f3f5;
@@ -36,6 +38,21 @@ body{
     color: var(--white-color);
     background-color: #D3E0EA;
 }
+header{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    transition: background-color 0.4s ease-in-out;
+}
+header.scrolled{
+    background-color: var(--primary-color);
+    opacity: 0.9;
+}
+
+.bg-color{
+    background-color: var(--primary-color);
+}
+
 a{
     text-decoration: none;
     color: inherit;
@@ -49,7 +66,8 @@ ul{
     width: 100%;
     margin: 0 auto;
     padding: 0.830em 0;
-    background-color: var(--secondary-dark-color);
+   
+    color: var(--dark-color);
 }
 .flexitem{
     display: flex;
@@ -71,6 +89,9 @@ header li>a{
     position: relative;
     line-height: inherit;
     transition: var(--trans-color);
+}
+.logo img{
+    width: 90px;
 }
 .logo a{
     font-family:'Poppins';
@@ -122,6 +143,25 @@ header li>a{
 main{
     display: flex;
     flex-direction: column;
+}
+.main-container{
+    height: 100vh;
+    width: 100%;
+}
+.main-container img{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main-container h1{
+    position: absolute;
+    left: 15%;
+    top: 5%;
+    z-index: 2;
+    color: #0a021c;
+    font-size: 200px;
 }
 .main-main{
     width: 100%;
@@ -464,6 +504,18 @@ main{
         display: flex;
         flex-direction: column;
         margin: 0 ;
+    }
+    .main-container h1{
+        position: absolute;
+        left: 15%;
+        top: 5%;
+        z-index: 2;
+        color: #0a021c;
+        font-size: 150px;
+    }
+    header.scrolled{
+        background-color: transparent;
+        opacity: 0.9;
     }
 }
 
