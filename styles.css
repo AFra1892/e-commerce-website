@@ -303,27 +303,12 @@ main{
     color: var(--secondary-dark-color);
     font-size: 30px;
 }
-.card{
-    height: 450px;
-    padding-left: 1rem;
-    
-}
-.card img{
-    max-width: 250px;
-    height: 100%;
-}
-.card-content{
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: var(--dark-color);
-}
-.card-content h3{
-    margin-bottom: 0;
-}
+
+
+
 /*AiRRRRRRRRRRRRRRRRRRRRRRRR!!1111*/
+
 .air1{
     height: 500px;
     background-color: var(--new-main-color);
@@ -516,6 +501,9 @@ main{
     .card-content h3{
         margin-top: 2rem;
     }
+    footer{
+        height: 100vh;
+    }
     .footer-container{
         display: flex;
         flex-direction: column;
@@ -535,8 +523,76 @@ main{
     }
 }
 
+/* CAAAAAAAAAAAAAAAAAAAAAAAAAARRRRRRRRRRRRRRRDDDDDDDDDDD*/
+#section-3{
+    background-color: #0a021c;
+    padding: 100px 0;
+    
+}
+.card{
+    height: 350px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
 
+.top-card img{
+    max-height: 200px;
+    width: 100%;
+    border-radius: 15px;
+}
+.card-content{
+    float: left;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.card-content input::placeholder{
+    color: white;
+    text-align: center;
+    font-weight: bold;
 
+}
+.card-content p span{
+    text-decoration: line-through;
+}
+.color{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.color input{
+    width:100px;
+    background-color: var(--dark-color);
+    border: none;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot {
+    height: 20px;
+    width: 20px;
+    
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .colors{
+    padding: 0 5px;
+  }
+  #dot-1{
+    background-color: #3898EC;
+  }
+  #dot-2{
+    background-color: red;
+  }
+  #dot-3{
+    background-color: green;
+  }
+  #dot-4{
+    background-color: #0a021c;
+  }
+  
 
 
 
