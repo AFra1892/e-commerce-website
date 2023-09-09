@@ -326,6 +326,7 @@ main{
     background-color: var(--new-main-color);
     height: auto;
     width: 100%;
+    color: #0a021c;
 }
 .footer-container{
     padding: 2rem;
