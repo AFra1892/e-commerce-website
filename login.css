@@ -2,11 +2,12 @@ body{
     margin: 0;
     padding: 0;
     height: 800px;
-    background:linear-gradient(135deg,#FAB2FF 10%,#1904E5 100%);
+    background:linear-gradient(135deg,black 10%,#B3E140 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     font-family:sans-serif;
+    font-family: 'Rubik' ,'sans-serif';
 }
 h5{
     font-size: 6vmax;
@@ -27,25 +28,29 @@ p{
     padding: 40px;
 }
 .main{
-    height: 780px;
+    height: 95vh;
     width: 80%;
     box-sizing: border-box;
     box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.147);
     display: flex;
     flex-direction: row;
     border-radius: 15px;
+    margin-bottom: 80PX;
+    margin-top: 10PX;
 }
 
 .left-section{
-    background-color:#5961f9ad;
+    background-color:#B3E140;
     background-size: cover;
+    color: black;
     height: 100%;
     width: 60%;
     border-radius: 15px;
 }
 .right-section{
     
-    background-color: white;
+    background-color: black;
+    color: white;
     height: 100%;
     width: 40%;
     display: flex;
@@ -62,7 +67,7 @@ p{
 }
 
 .login-btn{
-    background-color: #49C628 ;
+    background-color: #B3E140 ;
     border-radius: 18px;
     font-size: 20px;
     border: none;
