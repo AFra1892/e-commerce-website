@@ -1,9 +1,10 @@
 body{
     padding: 2rem 2rem;
-    background:linear-gradient(135deg,black 10%,#B3E140 100%);
+    background:linear-gradient(135deg,black 10%,#ffffff 100%);
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 .container{
     background-color: black;
@@ -34,5 +35,20 @@ body{
 .right-side{
     height: 100%;
     width: 50%;
-    background-color: blue;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
 }
+.right-side-content{
+    padding: 5rem 4.5rem;
+}
+.right-side button{
+        background-color: #ffffff ;
+        border-radius: 18px;
+        font-size: 20px;
+        border: none;
+        color: black;
+        width: 60%;
+        height: 45px;
+        margin-top: 20px;
+    }
