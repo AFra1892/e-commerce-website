@@ -1,0 +1,38 @@
+body{
+    padding: 2rem 2rem;
+    background:linear-gradient(135deg,black 10%,#B3E140 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: black;
+    height: 600px;
+    width: 100%;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+.left-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+.left-side img{
+    
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.right-side{
+    height: 100%;
+    width: 50%;
+    background-color: blue;
+}
