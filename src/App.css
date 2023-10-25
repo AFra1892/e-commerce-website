@@ -36,3 +36,66 @@
     transform: rotate(360deg);
   }
 }
+
+/* added by myself */
+:root{
+  --new-main-color:#B3E140;
+  --primary-color:#ffca99;
+  --secondary-color:#f19465;
+  --secondary-dark-color:#b56034;
+  
+
+  --white-color:#ffffff;
+  --light-bg-color:#f2f3f5;
+  --light-text-color:#7c899a;
+  --border-color:#e5e8ec;
+  --dark-color:#0a021c;
+
+  --font-small: 13px;
+  --font-smaller:11px;
+
+  --percent100:100%;
+  --percent50:50%;
+
+  --fw3: 300;
+  --fw5: 500;
+  --fw6: 600;
+  --fw7: 700;
+  --fw8: 800;
+
+  --trans-background-color:background-color .3s color .3s;
+  --trans-background: background-color .3s;
+  --trans-color:color .3s;
+
+}
+body{
+  margin: 0 ;
+  padding:0 ;
+  font-family: 'Rubik' ,'sans-serif';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--white-color);
+  background-color: var(--white-color);
+}
+header{
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  transition: background-color 0.4s ease-in-out;
+}
+header.scrolled{
+  background-color: var(--white-color);
+  opacity: 0.9;
+}
+
+
+
+a{
+  text-decoration: none;
+  color: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+ul{
+  list-style: none;
+}
