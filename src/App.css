@@ -39,10 +39,11 @@
 
 /* added by myself */
 :root{
-  --new-main-color:#B3E140;
-  --primary-color:#ffca99;
-  --secondary-color:#f19465;
-  --secondary-dark-color:#b56034;
+  --main-color:#2369B8;
+  --seconary-color:#FDDC21;
+  --third-color:#D51A46;
+  --main-white-color:#F7F2D4;
+  --main-dark-color:#091D34;
   
 
   --white-color:#ffffff;
@@ -98,4 +99,11 @@ a{
 }
 ul{
   list-style: none;
+}
+
+.shoe__header{
+  height: 100vh;
+  background-image: url('./assets/main-header-bg.jpg');
+  background-position: center;
+  background-size: cover;
 }

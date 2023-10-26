@@ -1,10 +1,17 @@
+:root{
+    --main-color:#2369B8;
+    --seconary-color:#FDDC21;
+    --third-color:#D51A46;
+    --main-white-color:#F7F2D4;
+    --main-dark-color:#091D34;
+}  
 .shoe__navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #fff;
-    padding: 2rem 6rem;
-    background-color: #379237;
+    padding: 1.5rem 6rem;
+    background-color: var(--seconary-color);
     
 }
 .shoe__navbar-links_logo img{
@@ -36,7 +43,7 @@
 .shoe__navbar-sign p,
 .shoe__navbar-menu_container p
 {
-    color: #fff;
+    color: var(--main-dark-color);
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -51,7 +58,7 @@
 {
     padding: 0.5rem 1rem;
     color: #fff;
-    background-color: #379237;
+    background-color: var(--third-color);
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;

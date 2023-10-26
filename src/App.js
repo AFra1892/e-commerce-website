@@ -4,7 +4,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+        <Navbar/>
+      <div className='shoe__header'>
+      </div>
     </div>
   );
 }
