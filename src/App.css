@@ -27,7 +27,9 @@
 .App-link {
   color: #61dafb;
 }
-
+.section__padding{
+  padding: 2rem 4rem;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -40,7 +42,7 @@
 /* added by myself */
 :root{
   --main-color:#2369B8;
-  --seconary-color:#FDDC21;
+  --secondary-color:#FDDC21;
   --third-color:#D51A46;
   --main-white-color:#F7F2D4;
   --main-dark-color:#091D34;

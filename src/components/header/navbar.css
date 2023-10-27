@@ -1,17 +1,10 @@
-:root{
-    --main-color:#2369B8;
-    --seconary-color:#FDDC21;
-    --third-color:#D51A46;
-    --main-white-color:#F7F2D4;
-    --main-dark-color:#091D34;
-}  
 .shoe__navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #fff;
     padding: 1.5rem 6rem;
-    background-color: var(--seconary-color);
+    background-color: var(--secondary-color);
     
 }
 .shoe__navbar-links_logo img{
