@@ -1,0 +1,64 @@
+.shoe__popular{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: var(--main-color);
+    gap: 15px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: var(--main-dark-color);
+}
+.card img{
+    height: 373px;
+    width: 473px;
+}
+
+/* from prev version  */
+
+.card-content{
+    text-align: left;
+}
+.card-content h3{
+    font-size: 25px;
+    margin: 0 0 10px 0;
+}
+.card-dec{
+    margin: 0;
+}
+
+@media screen and (max-width: 1350px) {
+    .card img{
+        height: 273px;
+        width: 373px;
+    }
+    .shoe__popular{
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .card img{
+        height: 373px;
+        width: 473px;
+    }
+    .shoe__popular{
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+}
+@media screen and (max-width: 550px) {
+    .card img{
+        height: 273px;
+        width: 373px;
+    }
+    .shoe__popular{
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+}
