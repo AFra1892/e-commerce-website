@@ -3,7 +3,7 @@
     flex-direction: row;
     background-color: var(--secondary-color);
     gap: 50px;
-    color: var(--main-dark-color);
+    color: var(--main-dark-color );
 }
 .shoe__trend-content{
     display: flex;
@@ -55,4 +55,46 @@
     z-index: 2;
     text-align: center;
     color: var(--main-dark-color);
+}
+@media screen and (max-width: 1250px) {
+    
+    .shoe__trend-cards{
+        overflow-x: auto;
+        overflow-y: hidden;
+        gap: 80px;
+    }
+    .shoe__trend-cards_card img{
+        width: 250px;
+
+    }
+}
+@media screen and (max-width: 700px) {
+    .shoe__trend{
+        display: flex;
+        flex-direction: column;
+    }
+    .shoe__trend-cards{
+        overflow-x: auto;
+        overflow-y: hidden;
+        gap: 80px;
+    }
+    .shoe__trend-cards_card img{
+        width: 250px;
+
+    }
+}
+@media screen and (max-width: 550px) {
+    .shoe__trend{
+        display: flex;
+        flex-direction: column;
+    }
+    .shoe__trend-cards{
+        overflow-x: auto;
+        overflow-y: hidden;
+        gap: 80px;
+    }
+    .shoe__trend-cards_card img{
+        width: 250px;
+
+    }
 }
