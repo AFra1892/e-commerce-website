@@ -20,12 +20,13 @@ const Navbar = () => {
 
 const [toggleMenu,setToggleMenu] = useState(false)
   return (
+    <>
     <div className='shoe__navbar'>
-      <div className='shoe__navbar-links'>
         <div className='shoe__navbar-links_logo'>
           <img src={logo} alt='logo'/>
         </div>
-        <div className='shoe__navbar-links_container'>
+      <div className='shoe__navbar-links'>
+        <div className=' shoe__navbar-links_container'>
           <NavList/>
         </div>
       </div>
@@ -33,6 +34,17 @@ const [toggleMenu,setToggleMenu] = useState(false)
         <p>sign in</p>
         <button type='button'>sign up</button>
       </div>
+
+    {/* drop down menu   */}
+    
+
+
+
+
+
+
+
+
       <div className='shoe__navbar-menu'>
         {toggleMenu
         ?<RiCloseLine color="#fff" size={27} onClick={()=>setToggleMenu(false)} />
@@ -51,6 +63,12 @@ const [toggleMenu,setToggleMenu] = useState(false)
         )}
       </div>
     </div>
+    <div className='dropdown'>
+          <div className='dropdown-content'>
+            shish
+          </div>
+    </div>
+  </>
   )
 }
 

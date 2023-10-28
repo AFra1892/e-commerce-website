@@ -105,7 +105,7 @@ ul{
 
 .shoe__header{
   height: 100vh;
-  background-image: url('./assets/main-header-bg.jpg');
+  /* background-image: url('./assets/main-header-bg.jpg'); */
   background-position: center;
   background-size: cover;
 }
