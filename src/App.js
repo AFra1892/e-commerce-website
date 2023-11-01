@@ -3,22 +3,16 @@ import Trend from './components/main/Trend';
 import './App.css';
 import Popular from './components/popular/Popular';
 import Footer from './components/footer/Footer';
-
 import {Menu} from 'antd'
+import { StyleProvider } from '@ant-design/cssinjs';
 
-<>
-    <p><a href='/'>Home</a></p>
-    <p><a href='/menu'>Menu</a></p>
-    <p><a href='/about'>About</a></p>
-    <p><a href='#gallery'>Gallery</a></p>
-    <p><a href='#contact'>Contact</a></p>
-    <i class='bx bx-shopping-bag' ></i>
-  </>
 
 function App() {
   return (
     <div className="App">
+      <StyleProvider hashPriority="high">
       <Menu
+      className='test-menu'
       mode='horizontal'
         items={
           [
@@ -52,8 +46,8 @@ function App() {
           ]
         }
       >
-
       </Menu>
+      </StyleProvider>
       <div className='shoe__header'></div>
       <Trend/>
       <Popular/>
